@@ -52,6 +52,9 @@ Proaktif hata müdahalesi sağlamak.
 7. KEDA Kurulumu
 
 KEDA Helm chart ile "keda" namespace altına deploy edildi.
+KEDA ile de 1 - 3 pod arası scale işlemi gerçekleştirilebiliyor. Ancak bunun yapılabilmesi için HPA deaktive edilmesi gerekiyor onun yerine nginx-keda-scaler.yaml deploy edilmeli.
+kubectl delete hpa nginx-hpa
+kubectl apply -f nginx-keda-scaler.yaml
 
 8. Istio Service Mesh
 
