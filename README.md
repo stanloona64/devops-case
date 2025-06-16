@@ -5,6 +5,8 @@ onal.beyza@gmail.com
 
 Google Kubernetes Engine (GKE) kullanılarak, Avrupa bölgesinde (europe-west1) "caseenuygun" adındaki proje üzerinde "demo" isimli bir Kubernetes cluster oluşturuldu. "terraform-on-gcp-enuygun" isimli bucket'a bağlandı. Cluster, uygulama için yüksek performans ve esneklik sağlayacak şekilde konfigüre edildi.
 
+![cluster](https://github.com/user-attachments/assets/9e91abb6-ff51-442e-a935-1c0ff4e50d54)
+
 *Logging ve Monitoring
 
 Cluster kurulumu sırasında logging ve monitoring özellikleri devre dışı bırakıldı.
