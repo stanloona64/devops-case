@@ -91,3 +91,11 @@ Istio bileşenleri helm üzerinden kuruldu:
 *istio-ingressgateway (LoadBalancer tipi)
 
 *istio-egressgateway (ClusterIP tipi)
+
+Alıntılamalar ve Kaynaklar:
+
+Kube Prometheus = prometheus-community https://prometheus-community.github.io/helm-charts
+KEDA = https://kedacore.github.io/charts
+Istio = https://istio-release.storage.googleapis.com/charts
+tf-k8s-workshop = https://github.com/huseyinbabal/tf-k8s-workshop/tree/master
+GCP GKE Terraform on Google Kubernetes Engine DevOps SRE IaC = https://www.udemy.com/course/gcp-gke-terraform-on-google-kubernetes-engine-devops-sre-iac/
