@@ -1,3 +1,6 @@
+Beyza Önal
+onal.beyza@gmail.com
+
 1. Cluster Oluşturulması (GKE)
 
 Google Kubernetes Engine (GKE) kullanılarak, Avrupa bölgesinde (europe-west1) "caseenuygun" adındaki proje üzerinde "demo" isimli bir Kubernetes cluster oluşturuldu. "terraform-on-gcp-enuygun" isimli bucket'a bağlandı. Cluster, uygulama için yüksek performans ve esneklik sağlayacak şekilde konfigüre edildi.
